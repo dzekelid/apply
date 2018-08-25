@@ -16,9 +16,10 @@ modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/apply/master/_listings/plentymarkets/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Plentymarkets
-  x-api-slug: plentymarkets
-  description: the-plentymarkets-rest-api-expands-the-functionality-of-the-plentymarkets-cms-and-allows-access-to-resources-i-e--data-records-via-unique-uri-paths
+- name: plentymarkets REST-API - Apply selected group function options for given contact
+    IDs
+  x-api-slug: restaccountscontactsgroup-functions-post
+  description: Applies selected group function options for given contact IDs.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
   humanURL: http://www.plentymarkets.co.uk
   baseURL: https://example.com//
@@ -28,21 +29,6 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/apply/master/_listings/plentymarkets/restaccountscontactsgroup-functions-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/apply/master/_listings/plentymarkets/restaccountscontactsgroup-functions-post-openapi.md
-- name: Plentymarkets
-  x-api-slug: plentymarkets
-  description: plentymarkets is an all-in-one e-commerce ERP solution, which combines
-    a comprehensive stock management system with a versatile shop system and effortless
-    multichannel sales. Thanks to comprehensive functions and interfaces that include
-    all steps of the e-commerce value chain, you can use the cloud based software
-    to completely automate all of your e-business processes as well as your companys
-    own individual processes.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
-  humanURL: http://www.plentymarkets.co.uk
-  baseURL: https://example.com//
-  tags: Apply
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/apply/master/_listings/plentymarkets/openapi.md
 x-common:
 - type: x-blog-rss
   url: https://www.plentymarkets.co.uk/?ActionCall=WebActionRSS&rrss_id=1
